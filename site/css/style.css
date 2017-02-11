@@ -220,14 +220,23 @@ hr {
 }
 /* About Section */
 #about {
-	padding: 140px 0;
+	padding-top: 70px;
 	background: #f6f6f6;
+	padding-bottom: 0px;
 }
 #about .about-text {
 	margin-left: 10px;
 }
 #about H4 {
 	font-size: 20px;
+}
+
+#about .section-title.center {
+	padding-bottom: 00px;
+}
+
+#about hr {
+	margin-bottom: 00px;
 }
 /*#about li {
 	margin-bottom: 3px;
@@ -251,15 +260,43 @@ hr {
 	*/
 }
 #about img {
-	margin-top: 20px;
+	/*margin-top: 20px;*/
+	border-radius: 999px;
+	width: 74px;
 }
 #about p {
-	margin-top: 20px;
-	margin-bottom: 30px;
+	/*margin-top: 20px;
+	margin-bottom: 30px; */
 }
+
+/* About + Bootflat */
+.timeline dl dd .events:hover {
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.27);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.27);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.27);
+}
+
+.timeline dl dd .events .events-body .events-heading {
+	font-weight: bold;
+	margin: 0px;
+}
+
+.events-date {
+	font-style: italic;
+	margin-bottom: 05px;
+}
+
+.events-body small {
+	font-weight: bold;
+}
+
+.timeline dl dd:last-child {
+    padding-bottom: 50px;
+}
+
 /* Services Section */
 #services {
-	padding: 140px 0;
+	padding: 70px 0;
 	background: url(../img/services-bg.jpg);
 	background-size: cover;
 	background-attachment: fixed;
@@ -285,6 +322,11 @@ hr {
 	font-size: 36px;
 	color: #E75926;
 	transition: all 0.5s;
+}
+
+#services .skill-count i.fa {
+	font-size: 20px;
+	margin-bottom: 15px;
 }
 /* Gallery Section */
 #works {
@@ -416,7 +458,7 @@ ol.type li a:hover {
 }
 /* Team Section */
 #team {
-	padding: 140px 0;
+	padding: 70px 0;
 	background: #e6e6e6;
 }
 img.img-thumbnail.team-img {
@@ -440,7 +482,7 @@ img.img-thumbnail.team-img {
 	background-size: cover;
 	background-attachment: fixed;
 	color: #ddd;
-	padding: 140px 0;
+	padding: 70px 0;
 }
 #testimonials h2 {
 	color: #f6f6f6;
