@@ -61,16 +61,6 @@ function main() {
         offset: 80
     })
 
-  	$(document).ready(function() {
-  	    $("#testimonial").owlCarousel({
-        navigation : false, // Show next and prev buttons
-        slideSpeed : 300,
-        paginationSpeed : 400,
-        singleItem:true
-        });
-
-  	});
-
   	// Portfolio Isotope Filter
     $(window).load(function() {
         var $container = $('.portfolio-items');
@@ -111,10 +101,6 @@ function main() {
   }
   initParallax();
 
-  	// Pretty Photo
-	$("a[rel^='prettyPhoto']").prettyPhoto({
-		social_tools: false
-	});	
 
 }());
 
